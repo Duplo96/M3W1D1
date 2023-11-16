@@ -1,0 +1,37 @@
+.jumbotron h1 {
+  background-color: blue;
+}
+nav > span {
+  background-color: red;
+}
+.jumbotron a {
+  color: violet;
+}
+.mb-2 .col-md-6:first-of-type {
+  background-color: aqua;
+}
+hr {
+  border: 1px solid red;
+}
+
+nav a:nth-child(even) {
+  background-color: black;
+}
+.p-4:nth-child(2) li {
+  background-color: black;
+}
+.blog-post:nth-child(3) .blog-post-meta a {
+  background-color: black;
+}
+.blog-post:nth-child(4) ul li:nth-child(2) {
+  background-color: aqua;
+}
+footer + a {
+  background-color: red;
+}
+.blog-pagination a:nth-child(2) {
+  background-color: red;
+}
+.blog-footer a:nth-child(2) {
+  background-color: red;
+}
