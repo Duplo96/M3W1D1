@@ -35,3 +35,9 @@ footer + a {
 .blog-footer a:nth-child(2) {
   background-color: red;
 }
+.col-md-6:first-of-type {
+  background-color: red;
+}
+.jumbotron a {
+  color: white;
+}
