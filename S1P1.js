@@ -14,18 +14,25 @@ removeTwitter()
 
 
 const continueToRead = document.querySelector(".jumbotron a");
-const firstCard = document.querySelector(".col-md-6:first-of-type");
 const continueToReadLinks = document.querySelectorAll(".col-md-6 a.stretched-link");
 function setContinueReading(e) {
-    firstCard.style.display = "none";
     const col = e.target.closest(".col-md-6");
     if (col) {
         col.style.display = "none";
     }
-
     console.log(e.target);
 }
 continueToRead.addEventListener("click", setContinueReading);
 for (let i = 0; i < continueToReadLinks.length; i++) {
     continueToReadLinks[i].addEventListener("click", setContinueReading);
+}
+
+const alertName = function(ev){
+    let author = ev.target.innerText
+    alert (`Author:${author}`)
+}
+let authorName = document.querySelectorAll(".blog-post-meta a")
+for (let i = 0; i < authorName.length; i++) {
+    authorName[i].addEventListener("mouseover",alertName);
+    
 }
