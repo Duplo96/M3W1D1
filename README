@@ -1,4 +1,4 @@
-/* <!-- I selettori CSS ti aiutano a selezionare elementi HTML tramite CSS e JavaScript. 
+<!-- I selettori CSS ti aiutano a selezionare elementi HTML tramite CSS e JavaScript.
 
 Con questi esercizi farai pratica nell'utilizzarli sia per modificare lo stile di elementi HTML sia nel selezionarli per manipolarli via JavaScript
 I selettori CSS sono estremamente utili per selezionare nodi del DOM con precisione grazie al fatto che funzionano perfettamente con querySelector,
@@ -9,7 +9,7 @@ IMPORTANTE: NON PUOI inserire classi o id aggiuntivi nell'HTML, devi usare solo 
 
 Per testare i Selettori CSS puoi cambiare all'elemento che stai cercando di selezionare il colore, colore di sfondo, aggiungere un bordo colorato ecc. Se il selettore è corretto vedrai applicare quello stile all'elemento, se non succede significa che il selettore non è corretto o qualche altra regola CSS sta prevalendo. Controlla sempre dall'inspector del browser.
 
-ESERCIZIO 1) Crea un selettore per selezionare l'<h1> nella sezione "hero", ovvero nel jumbotron OK 
+ESERCIZIO 1) Crea un selettore per selezionare l'<h1> nella sezione "hero", ovvero nel jumbotron OK
 ESERCIZIO 2) Crea un selettore per selezionare tutti i figli dell'elemento navbar OK
 ESERCIZIO 3) Crea un selettore per selezionare il link "Continua a leggere" del jumbotron OK
 ESERCIZIO 4) Crea un selettore per selezionare il primo blog post OK
@@ -17,7 +17,7 @@ ESERCIZIO 5) Crea un selettore per selezionare l'<hr> del primo blog post e colo
 ESERCIZIO 6) Crea un selettore per selezionare i link pari della navbar OK
 ESERCIZIO 7) Crea un selettore per selezionare tutti gli <li> della prima "ordered-list" della sidebar ("Archivio") OK
 ESERCIZIO 8) Crea un selettore per selezionare l'autore del secondo blog post OK
-ESERCIZIO 9) Crea un selettore per selezionare il secondo <li> della lista del terzo blog post OK 
+ESERCIZIO 9) Crea un selettore per selezionare il secondo <li> della lista del terzo blog post OK
 ESERCIZIO 10) Crea un selettore per selezionare il link "Torna su" che trovi a fondo pagina nell'angolo in basso a destra OK
 ESERCIZIO 11) Crea un selettore per selezionare il bottone "Nuovi" che trovi in basso OK
- ESERCIZIO 12) Crea un selettore per selezionare il secondo link del footer ok  */
+ ESERCIZIO 12) Crea un selettore per selezionare il secondo link del footer ok   -->
